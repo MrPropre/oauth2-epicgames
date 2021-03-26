@@ -3,11 +3,12 @@
     "description": "Epic Games OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "type": "library",
     "require": {
+        "php": ">=7.3",
         "league/oauth2-client": "^2.6"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5",
-        "phpunit/phpunit": "^9.5",
+        "phpunit/phpunit": "^8.5 || ^9.0",
         "mockery/mockery": "^1.4"
     },
     "license": "MIT",
@@ -44,5 +45,8 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "scripts": {
+        "check": "phpcs --extensions=php --standard=psr12 -sp src"
     }
 }

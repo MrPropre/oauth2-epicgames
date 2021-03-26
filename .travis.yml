@@ -12,8 +12,10 @@ before_script:
 
 script:
   - ./vendor/bin/phpcs --extensions=php --standard=psr12 -sp src
-  - ./vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
+  - ./vendor/bin/phpunit --coverage-text --coverage-clover=clover.xml
 
 after_success:
   - wget https://scrutinizer-ci.com/ocular.phar
-  - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+  - php ocular.phar code-coverage:upload --format=php-clover clover.xml
+  - wget https://github.com/php-coveralls/php-coveralls/releases/download/v2.4.3/php-coveralls.phar
+  - travis_retry php php-coveralls.phar --coverage_clover=clover.xml

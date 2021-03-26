@@ -1,10 +1,9 @@
 # Epic Games Provider for OAuth 2.0 Client
-[![Latest Version](https://img.shields.io/github/release/MrPropre/oauth2-epicgames.svg?style=flat-square)](https://github.com/MrPropre/oauth2-epicgames/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/MrPropre/oauth2-epicgames/master.svg?style=flat-square)](https://travis-ci.org/MrPropre/oauth2-epicgames)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/MrPropre/oauth2-epicgames.svg?style=flat-square)](https://scrutinizer-ci.com/g/MrPropre/oauth2-epicgames/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/MrPropre/oauth2-epicgames.svg?style=flat-square)](https://scrutinizer-ci.com/g/MrPropre/oauth2-epicgames)
-[![Total Downloads](https://img.shields.io/packagist/dt/mrpropre/oauth2-epicgames.svg?style=flat-square)](https://packagist.org/packages/mrpropre/oauth2-epicgames)
+[![Latest Stable Version](https://img.shields.io/packagist/v/mrpropre/oauth2-epicgames.svg)](https://packagist.org/packages/mrpropre/oauth2-epicgames)
+[![Build Status](https://img.shields.io/travis/MrPropre/oauth2-epicgames.svg)](https://travis-ci.org/MrPropre/oauth2-epicgames)
+[![Code Coverage](https://img.shields.io/coveralls/MrPropre/oauth2-epicgames.svg)](https://coveralls.io/r/MrPropre/oauth2-epicgames)
+[![Code Quality](https://img.shields.io/scrutinizer/g/MrPropre/oauth2-epicgames.svg)](https://scrutinizer-ci.com/g/MrPropre/oauth2-epicgames/)
+[![License](https://img.shields.io/packagist/l/mrpropre/oauth2-epicgames.svg)](LICENSE)
 
 This package provides Epic Games OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
